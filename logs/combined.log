@@ -54,3 +54,8 @@
 {"level":"error","message":"Error creating user: User with this email already  exists","service":"acquisitions-api","stack":"Error: User with this email already  exists\n    at createUser (file:///C:/Users/Krish/Documents/GitHub/acquisitions/src/services/auth.service.js:21:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (file:///C:/Users/Krish/Documents/GitHub/acquisitions/src/controllers/auth.controller.js:18:18)"}
 {"level":"error","message":"Error in signup controller: User with this email already  exists","service":"acquisitions-api","stack":"Error: User with this email already  exists\n    at createUser (file:///C:/Users/Krish/Documents/GitHub/acquisitions/src/services/auth.service.js:21:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (file:///C:/Users/Krish/Documents/GitHub/acquisitions/src/controllers/auth.controller.js:18:18)"}
 {"level":"info","message":"::1 - - [28/Oct/2025:13:05:18 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 409 33 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated with email: admin@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully with email: admin@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [28/Oct/2025:13:21:54 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 113 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [28/Oct/2025:13:22:21 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api"}
