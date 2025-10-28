@@ -17,13 +17,19 @@
   },
   "scripts": {
     "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
-    "db:studio": "drizzle-kit studio"
+    "db:studio": "drizzle-kit studio",
+    "dev:docker": "scripts\\dev.bat",
+    "dev:docker:unix": "sh scripts/dev.sh",
+    "prod:docker": "scripts\\prod.bat",
+    "prod:docker:unix": "sh scripts/prod.sh"
+
   },
   "repository": {
     "type": "git",

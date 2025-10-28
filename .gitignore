@@ -1,6 +1,10 @@
 node_modules/
 dist/
 .env
+.env.development
+.env.production
 .neon_local/
+logs/
+*.log
 public/readme/module-icon.webp
 public/readme/module-thumbnail.webp
